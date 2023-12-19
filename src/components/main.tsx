@@ -101,7 +101,7 @@ const MainPage = () => {
         </StoryItem>
         <StoryItem>
             <h3>8 Dekabr 2023</h3>
-            <p>sozume nie qulaq asmir ala, isteyen adam sozume qulaq asar, belke meni firradir</p>
+            <p>sozume nie qulaq asmir ala, isteyen adam sozume qulaq asar, meni firradir ala deyesen</p>
         </StoryItem>
         <StoryItem>
             <h3>11 Dekabr 2023</h3>
@@ -135,7 +135,7 @@ const MainPage = () => {
         </StoryItem>
         <StoryItem>
             <h3>19 Dekabr 2023</h3>
-            <p>ayble yene hami deyir basin burax, oda oz kefindedi, zerre qeder pis olmayib, oglan etiketleyib story paylasir, menede yalannan deyir seni isteyirem zad, ayble neter bosu bosuna inandim ala, indi uje tanidim onu, yene menim adim pis cixir, bilmirde ala neler olubsa, gop gop seylere inanib, vaxtinda hami deyirdi basin burax, buraxmirdim isteyirdim, axirda bildimki ele axmag menem</p>
+            <p>ayble yene hami deyir basin burax, oda oz kefindedi, zerre qeder pis olmayib, oglan etiketleyib story paylasir, menede yalannan deyir seni isteyirem zad, ayble neter bosu bosuna inandim ala, indi uje tanidim onu, yene menim adim pis cixir, bilmirde ala neler olubsa, gop gop seylere inanib, vaxtinda hami deyirdi basin burax, buraxmirdim isteyirdim, axirda bildimki ele axmagin boyuyu menem</p>
         </StoryItem>
      </MainContainer>
      <div className='last_caption'>
