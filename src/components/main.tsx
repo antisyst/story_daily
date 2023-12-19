@@ -64,21 +64,26 @@ const StoryItem = styled.div `
     }
 `
 const MainPage = () => {
+    // 
 
-   
     useEffect(() => {
         const audio = new Audio('https://audio.jukehost.co.uk/shvhB3VCq2PPVoWQzFXMG39FubeRyzrM');
         audio.play();
+    
+        audio.onended = () => {
+          audio.currentTime = 0;
+          audio.play();
+        };
     
         return () => {
           audio.pause();
         };
       }, []);
 
-      
+
 
   return (
-    <MainLayout>   
+    <MainLayout>
         <Intro/>
     <MainContainer>
         <StoryItem>
@@ -128,10 +133,14 @@ const MainPage = () => {
             <h3>18 Dekabr 2023</h3>
             <p>pis sozlerin sezonuda basladi, meni istemeyib deyesen, baglandim ala, nece yaddan cixaracam onu, mene nifret eliyir ala, 2 gun evvel balamnan ureyimnen danisirdig, 1 gune bu qedermi sey deyiser, neyse bir esgde burda baglandi, qismetde varsa yollarimiz eyni dusecey ( İnşAllah ), men deyirdim fso heckimi ureyden isteye bilmerem, hemin adamin cismini tesevvur eliye bilmirdim, ama inandirdi, hecvaxt unudan deyilem, oz yeri var hemise olacag, ala sesi qulagimadadiye, menim ucunbunnan gozel ses var goresen...</p>
         </StoryItem>
+        <StoryItem>
+            <h3>19 Dekabr 2023</h3>
+            <p>ayble yene hami deyir basin burax, oda oz kefindedi, zerre qeder pis olmayib, oglan etiketleyib story paylasir, menede yalannan deyir seni isteyirem zad, ayble neter bosu bosuna inandim ala, indi uje tanidim onu, yene menim adim pis cixir, bilmirde ala neler olubsa, gop gop seylere inanib, vaxtinda hami deyirdi basin burax, buraxmirdim isteyirdim, axirda bildimki ele axmag menem</p>
+        </StoryItem>
      </MainContainer>
      <div className='last_caption'>
-        <h2>Our love maybe ended, but my love never ended... ∞</h2>    
-    </div>    
+        <h2>Our love maybe ended, but my love never ended... ∞</h2>
+    </div>
     </MainLayout>
   )
 }
